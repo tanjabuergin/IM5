@@ -1,0 +1,839 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\000031}}
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000310}}
+h1 {
+  font-size: 5rem;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000314}}
+h2 {
+  font-size: 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000319}}
+h3 {
+  font-size: 1.5rem; }
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000326}}
+  body {
+    max-width: 100vw;
+    overflow-x: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000330}}
+  h1 {
+    font-size: 3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000333}}
+  h2 {
+    font-size: 2rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000344}}
+body {
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000349}}
+  body header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 25px 15px 10px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    color: #102436; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000360}}
+    body header nav.scoll-animate-in {
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+              box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+      width: 100%;
+      padding: 15px 15px 10px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000369}}
+      body header nav.scoll-animate-in ul li a {
+        color: #102436; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000372}}
+        body header nav.scoll-animate-in ul li a .nav-bg {
+          width: 0;
+          height: 0;
+          border-top: 0px solid #102436;
+          border-left: 100vw solid transparent;
+          position: absolute;
+          bottom: 20;
+          right: 0;
+          z-index: 90; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000383}}
+        body header nav.scoll-animate-in ul li a::before, body header nav.scoll-animate-in ul li a::after {
+          position: absolute;
+          opacity: 0;
+          width: 0%;
+          height: 1px;
+          content: '';
+          background: #102436;
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+          display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000394}}
+        body header nav.scoll-animate-in ul li a:hover, body header nav.scoll-animate-in ul li a:focus {
+          text-decoration: none;
+          color: #102436; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000398}}
+          body header nav.scoll-animate-in ul li a:hover::after, body header nav.scoll-animate-in ul li a:focus::after {
+            opacity: 1;
+            width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003103}}
+          body header nav.scoll-animate-in ul li a:hover::before, body header nav.scoll-animate-in ul li a:focus::before {
+            opacity: 1;
+            width: 80%; }
+    @media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\0000349}}
+      body header nav {
+        background-color: #fff;
+        height: 55px;
+        padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003118}}
+        body header nav .mobile-nav-wrapper {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: #fff;
+          padding: 10px 15px 10px;
+          z-index: 1000;
+          -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+                  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003130}}
+          body header nav .mobile-nav-wrapper #mobile-nav-button {
+            height: 30px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003135}}
+            body header nav .mobile-nav-wrapper #mobile-nav-button .button-lines {
+              display: block;
+              width: 27px;
+              height: 2px;
+              background-color: #102436;
+              margin: 8px 0;
+              position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003144}}
+              body header nav .mobile-nav-wrapper #mobile-nav-button .button-lines::before, body header nav .mobile-nav-wrapper #mobile-nav-button .button-lines::after {
+                content: '';
+                width: 27px;
+                height: 2px;
+                background-color: #102436;
+                margin: 9px 0;
+                position: absolute;
+                display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003154}}
+              body header nav .mobile-nav-wrapper #mobile-nav-button .button-lines::before {
+                bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003157}}
+              body header nav .mobile-nav-wrapper #mobile-nav-button .button-lines::after {
+                top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003165}}
+        body header nav.open ul {
+          -webkit-transform: translateY(0%);
+                  transform: translateY(0%); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003171}}
+    body header nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      @media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003171}}
+        body header nav ul {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          margin-top: 55px;
+          -webkit-transform: translateY(-100%);
+                  transform: translateY(-100%);
+          -webkit-transition: all ease-out .5s;
+          transition: all ease-out .5s;
+          background: #fff;
+          -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+                  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003187}}
+      body header nav ul li {
+        padding: 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003190}}
+        body header nav ul li a {
+          position: relative;
+          display: block;
+          padding: 15px 30px;
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003198}}
+          body header nav ul li a:hover {
+            text-decoration: none;
+            color: #fff; }
+          @media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003190}}
+            body header nav ul li a {
+              padding: 15px;
+              color: #102436;
+              text-decoration: none;
+              border-top: 1px solid #102436; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003211}}
+              body header nav ul li a:focus {
+                text-decoration: none;
+                color: #102436; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003215}}
+                body header nav ul li a:focus::after {
+                  opacity: 0;
+                  width: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003220}}
+                body header nav ul li a:focus::before {
+                  opacity: 0;
+                  width: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003229}}
+          body header nav ul li a::before, body header nav ul li a::after {
+            position: absolute;
+            opacity: 0;
+            width: 0%;
+            height: 1px;
+            content: '';
+            background: #fff;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003240}}
+          body header nav ul li a::before {
+            top: 0px;
+            left: 10%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003245}}
+          body header nav ul li a::after {
+            right: 10%;
+            bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003250}}
+          body header nav ul li a:hover, body header nav ul li a:focus {
+            text-decoration: none;
+            color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003254}}
+            body header nav ul li a:hover::after, body header nav ul li a:focus::after {
+              opacity: 1;
+              width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003259}}
+            body header nav ul li a:hover::before, body header nav ul li a:focus::before {
+              opacity: 1;
+              width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003272}}
+  body header .nav-bg {
+    width: 100%;
+    height: 0;
+    background-color: #fff;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003278}}
+  body header nav.scoll-animate-in + .nav-bg {
+    height: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003286}}
+  body main .home-container-1 article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    background-image: url(../img/home-bright.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003297}}
+    body main .home-container-1 article div {
+      width: 40%;
+      padding: 100px; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003305}}
+    body main .home-container-1 article {
+      background-size: auto 100%;
+      overflow: hidden;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003317}}
+  body main #thema .thema-container-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #102436; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003326}}
+    body main #thema .thema-container-1 .thema-1 {
+      width: 70%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003329}}
+      body main #thema .thema-container-1 .thema-1 article {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003334}}
+        body main #thema .thema-container-1 .thema-1 article h2 {
+          width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003338}}
+        body main #thema .thema-container-1 .thema-1 article div {
+          width: 45%;
+          overflow: hidden;
+          height: 500px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003344}}
+          body main #thema .thema-container-1 .thema-1 article div img {
+            width: 100%; }
+        @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003352}}
+          body main #thema .thema-container-1 .thema-1 article div {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003362}}
+  body main #thema .thema-container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003368}}
+    body main #thema .thema-container-2 .thema-container-text {
+      height: 300px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003375}}
+    body main #thema .thema-container-2 .block-1, body main #thema .thema-container-2 .block-3 {
+      background-color: #102436;
+      width: 33%;
+      padding: 50px;
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003383}}
+    body main #thema .thema-container-2 .block-2 {
+      background-color: #fff;
+      width: 33%;
+      padding: 50px;
+      color: #102436; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003393}}
+    body main #thema .thema-container-2 {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003396}}
+      body main #thema .thema-container-2 .block-1 {
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003399}}
+      body main #thema .thema-container-2 .block-2 {
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003402}}
+      body main #thema .thema-container-2 .block-3 {
+        width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003412}}
+  body main #hintergrund .hintergrund-container-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #102436; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003421}}
+    body main #hintergrund .hintergrund-container-1 .hintergrund-1 {
+      width: 70%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003424}}
+      body main #hintergrund .hintergrund-container-1 .hintergrund-1 article {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003429}}
+        body main #hintergrund .hintergrund-container-1 .hintergrund-1 article h2 {
+          width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003432}}
+        body main #hintergrund .hintergrund-container-1 .hintergrund-1 article div {
+          width: 50%; }
+      @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003439}}
+        body main #hintergrund .hintergrund-container-1 .hintergrund-1 article div {
+          width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003450}}
+  body main #hintergrund .hintergrund-2 {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003455}}
+    body main #hintergrund .hintergrund-2 section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      width: 30%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003461}}
+      body main #hintergrund .hintergrund-2 section .js_count {
+        font-size: 5rem;
+        font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003466}}
+      body main #hintergrund .hintergrund-2 section p {
+        width: 100%;
+        text-align: center; }
+      @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003472}}
+        body main #hintergrund .hintergrund-2 section .js_count {
+          font-size: 2rem; } }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003480}}
+    body main #hintergrund .hintergrund-2 {
+      margin-top: 0; } }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003488}}
+    body main #hintergrund .hintergrund-container-1 {
+      padding-bottom: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003496}}
+  body main #projekt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003500}}
+    body main #projekt .projekt-container-1 {
+      color: #102436;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 70%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003507}}
+      body main #projekt .projekt-container-1 .projekt-1 {
+        width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003510}}
+        body main #projekt .projekt-container-1 .projekt-1 div {
+          width: 50%;
+          margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003515}}
+        body main #projekt .projekt-container-1 .projekt-1 article {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003520}}
+          body main #projekt .projekt-container-1 .projekt-1 article h2 {
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003525}}
+          body main #projekt .projekt-container-1 .projekt-1 article div {
+            width: 48%;
+            overflow: hidden;
+            height: 500px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003530}}
+            body main #projekt .projekt-container-1 .projekt-1 article div img {
+              width: 100%; }
+        @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003538}}
+          body main #projekt .projekt-container-1 .projekt-1 div {
+            width: 100%;
+            margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003542}}
+          body main #projekt .projekt-container-1 .projekt-1 article {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003546}}
+            body main #projekt .projekt-container-1 .projekt-1 article div {
+              width: 100%;
+              height: auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003554}}
+      body main #projekt .projekt-container-1 .projekt-2 {
+        width: 100%;
+        margin-bottom: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: self-start;
+            -ms-flex-align: self-start;
+                align-items: self-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003561}}
+        body main #projekt .projekt-container-1 .projekt-2 div {
+          width: 50%; }
+        @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003566}}
+          body main #projekt .projekt-container-1 .projekt-2 div {
+            width: 100%; } }
+      @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003574}}
+        body main #projekt .projekt-container-1 .projekt-2 {
+          margin-bottom: 10px; } }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003582}}
+      body main #projekt .projekt-container-1 {
+        padding-top: 100px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003595}}
+  body footer {
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #102436;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003611}}
+  body .button-parent {
+    margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003614}}
+    body .button-parent .btn-primary {
+      padding: 15px 25px;
+      background-color: transparent;
+      color: #fff;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      border-left: none;
+      border-right: none;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003627}}
+      body .button-parent .btn-primary:hover {
+        border-color: transparent;
+        font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003631}}
+        body .button-parent .btn-primary:hover .focusLine {
+          -webkit-transform: translate3d(0, 0, 0);
+                  transform: translate3d(0, 0, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003635}}
+      body .button-parent .btn-primary:focus {
+        background-color: #fff;
+        color: #102436;
+        font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003640}}
+      body .button-parent .btn-primary .focusLine {
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 3px;
+        background: #fff;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        -webkit-transform: translate3d(0, 100%, 0);
+                transform: translate3d(0, 100%, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003652}}
+    body .button-parent .btn-secondary {
+      padding: 15px 25px;
+      background-color: transparent;
+      color: #102436;
+      border-top: 1px solid #102436;
+      border-bottom: 1px solid #102436;
+      border-left: none;
+      border-right: none;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003665}}
+      body .button-parent .btn-secondary:hover {
+        border-color: transparent;
+        font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003669}}
+        body .button-parent .btn-secondary:hover .focusLine {
+          -webkit-transform: translate3d(0, 0, 0);
+                  transform: translate3d(0, 0, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003673}}
+      body .button-parent .btn-secondary:focus {
+        background-color: #102436;
+        color: #fff;
+        font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003678}}
+      body .button-parent .btn-secondary .focusLine {
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 3px;
+        background: #102436;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        -webkit-transform: translate3d(0, 100%, 0);
+                transform: translate3d(0, 100%, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003692}}
+  body .number-bar {
+    padding-top: 200px;
+    height: 1000px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003699}}
+  body #slider-container {
+    height: auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    -webkit-transition: .25s;
+    transition: .25s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003710}}
+    body #slider-container .credit {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      color: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003717}}
+    body #slider-container .options {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch;
+      overflow: hidden;
+      min-width: 600px;
+      max-width: 900px;
+      width: calc(100% - 100px);
+      height: 400px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003730}}
+      body #slider-container .options .option {
+        position: relative;
+        overflow: hidden;
+        min-width: 60px;
+        margin: 10px;
+        background: var(--optionBackground);
+        background-size: auto 120%;
+        background-position: center;
+        cursor: pointer;
+        -webkit-transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+        transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003744}}
+        body #slider-container .options .option.active {
+          -webkit-box-flex: 10000;
+              -ms-flex-positive: 10000;
+                  flex-grow: 10000;
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+          max-width: 600px;
+          margin: 0px;
+          border-radius: 40px;
+          background-size: auto 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003753}}
+          body #slider-container .options .option.active .shadow {
+            -webkit-box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
+                    box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003756}}
+          body #slider-container .options .option.active .label {
+            bottom: 20px;
+            left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003759}}
+            body #slider-container .options .option.active .label .info > div {
+              left: 0px;
+              opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003766}}
+        body #slider-container .options .option:not(.active) {
+          -webkit-box-flex: 1;
+              -ms-flex-positive: 1;
+                  flex-grow: 1;
+          border-radius: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003770}}
+          body #slider-container .options .option:not(.active) .shadow {
+            bottom: -40px;
+            -webkit-box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
+                    box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003774}}
+          body #slider-container .options .option:not(.active) .label {
+            bottom: 10px;
+            left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003777}}
+            body #slider-container .options .option:not(.active) .label .info > div {
+              left: 20px;
+              opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003783}}
+        body #slider-container .options .option .shadow {
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          right: 0px;
+          height: 120px;
+          -webkit-transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+          transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003793}}
+        body #slider-container .options .option .label {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          position: absolute;
+          right: 0px;
+          height: 40px;
+          -webkit-transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+          transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003800}}
+          body #slider-container .options .option .label .icon {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            min-width: 40px;
+            max-width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background-color: #fff;
+            color: var(--defaultBackground); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003814}}
+          body #slider-container .options .option .label .info {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            margin-left: 10px;
+            color: #fff;
+            white-space: pre; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003824}}
+            body #slider-container .options .option .label .info > div {
+              position: relative;
+              -webkit-transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
+              transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003829}}
+            body #slider-container .options .option .label .info .main {
+              font-weight: bold;
+              font-size: 1.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003833}}
+            body #slider-container .options .option .label .info .sub {
+              -webkit-transition-delay: .1s;
+                      transition-delay: .1s; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003844}}
+    body #slider-container {
+      overflow: visible; } }
+
+/*body zu*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003854}}
+#darkmode-Btn {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  bottom: 110px;
+  right: 50px;
+  background-color: #fff;
+  border: 1px solid #102436;
+  color: #102436;
+  padding: 10px 15px;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003869}}
+  #darkmode-Btn:hover {
+    background-color: #102436;
+    border: 1px solid #fff;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003875}}
+  #darkmode-Btn .light {
+    position: absolute;
+    opacity: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003882}}
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #102436;
+  color: #102436;
+  padding: 10px 15px;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/tanjabuergin\/Documents\/GitHub\/IM5-github\/scss\/style\.scss}line{font-family:\00003895}}
+  #backToTopBtn:hover {
+    background-color: #102436;
+    border: 1px solid #fff;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

@@ -569,6 +569,7 @@ margin: 0 auto;
 
           .projekt-1{
             width: 100%;
+            padding-top: 100px;
             
             div{
               width: 50%;
@@ -613,6 +614,23 @@ margin: 0 auto;
               }
             }
           }
+          // respnsoive ipad
+          @media screen and (max-width: 768px){
+            .projekt-1{
+              padding-top: 0;
+            }
+          }
+
+            // responsive mobile 
+            @media screen and (max-width:576px){
+              .projekt-1{
+                padding-top: 0;
+              }
+            }
+
+
+
+
 
           .projekt-2{
             width: 100%;

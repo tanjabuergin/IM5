@@ -494,12 +494,13 @@ body {
       width: 70%; }
       /* line 575, style-dark.scss */
       body main #projekt .projekt-container-1 .projekt-1 {
-        width: 100%; }
-        /* line 578, style-dark.scss */
+        width: 100%;
+        padding-top: 100px; }
+        /* line 581, style-dark.scss */
         body main #projekt .projekt-container-1 .projekt-1 div {
           width: 50%;
           margin-bottom: 30px; }
-        /* line 583, style-dark.scss */
+        /* line 586, style-dark.scss */
         body main #projekt .projekt-container-1 .projekt-1 article {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -509,7 +510,7 @@ body {
                   justify-content: space-between;
           -ms-flex-wrap: wrap;
               flex-wrap: wrap; }
-          /* line 588, style-dark.scss */
+          /* line 591, style-dark.scss */
           body main #projekt .projekt-container-1 .projekt-1 article h2 {
             width: 100%;
             display: -webkit-box;
@@ -518,31 +519,39 @@ body {
             -webkit-box-pack: justify;
                 -ms-flex-pack: justify;
                     justify-content: space-between; }
-          /* line 593, style-dark.scss */
+          /* line 596, style-dark.scss */
           body main #projekt .projekt-container-1 .projekt-1 article div {
             width: 48%;
             overflow: hidden;
             height: 500px; }
-            /* line 597, style-dark.scss */
+            /* line 600, style-dark.scss */
             body main #projekt .projekt-container-1 .projekt-1 article div img {
               width: 100%; }
         @media screen and (max-width: 768px) {
-          /* line 604, style-dark.scss */
+          /* line 607, style-dark.scss */
           body main #projekt .projekt-container-1 .projekt-1 div {
             width: 100%;
             margin-bottom: 0; }
-          /* line 608, style-dark.scss */
+          /* line 611, style-dark.scss */
           body main #projekt .projekt-container-1 .projekt-1 article {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap; }
-            /* line 612, style-dark.scss */
+            /* line 615, style-dark.scss */
             body main #projekt .projekt-container-1 .projekt-1 article div {
               width: 100%;
               height: auto; } }
-      /* line 621, style-dark.scss */
+      @media screen and (max-width: 768px) {
+        /* line 625, style-dark.scss */
+        body main #projekt .projekt-container-1 .projekt-1 {
+          padding-top: 0; } }
+      @media screen and (max-width: 576px) {
+        /* line 632, style-dark.scss */
+        body main #projekt .projekt-container-1 .projekt-1 {
+          padding-top: 0; } }
+      /* line 637, style-dark.scss */
       body main #projekt .projekt-container-1 .projekt-2 {
         width: 100%;
         margin-bottom: 50px;
@@ -552,22 +561,22 @@ body {
         -webkit-box-align: self-start;
             -ms-flex-align: self-start;
                 align-items: self-start; }
-        /* line 628, style-dark.scss */
+        /* line 644, style-dark.scss */
         body main #projekt .projekt-container-1 .projekt-2 div {
           width: 50%; }
         @media screen and (max-width: 768px) {
-          /* line 633, style-dark.scss */
+          /* line 649, style-dark.scss */
           body main #projekt .projekt-container-1 .projekt-2 div {
             width: 100%; } }
       @media screen and (max-width: 768px) {
-        /* line 640, style-dark.scss */
+        /* line 656, style-dark.scss */
         body main #projekt .projekt-container-1 .projekt-2 {
           margin-bottom: 10px; } }
     @media screen and (max-width: 768px) {
-      /* line 647, style-dark.scss */
+      /* line 663, style-dark.scss */
       body main #projekt .projekt-container-1 {
         padding-top: 100px; } }
-  /* line 656, style-dark.scss */
+  /* line 672, style-dark.scss */
   body footer {
     height: 100px;
     width: 100%;
@@ -583,10 +592,10 @@ body {
         -ms-flex-align: center;
             align-items: center;
     color: #102436; }
-  /* line 672, style-dark.scss */
+  /* line 688, style-dark.scss */
   body .button-parent {
     margin-top: 20px; }
-    /* line 676, style-dark.scss */
+    /* line 692, style-dark.scss */
     body .button-parent .btn-primary {
       padding: 15px 25px;
       background-color: transparent;
@@ -600,20 +609,20 @@ body {
       position: relative;
       overflow: hidden;
       cursor: pointer; }
-      /* line 689, style-dark.scss */
+      /* line 705, style-dark.scss */
       body .button-parent .btn-primary:hover {
         border-color: transparent;
         font-weight: 600; }
-        /* line 693, style-dark.scss */
+        /* line 709, style-dark.scss */
         body .button-parent .btn-primary:hover .focusLine {
           -webkit-transform: translate3d(0, 0, 0);
                   transform: translate3d(0, 0, 0); }
-      /* line 697, style-dark.scss */
+      /* line 713, style-dark.scss */
       body .button-parent .btn-primary:focus {
         background-color: #102436;
         color: #fff;
         font-weight: 600; }
-      /* line 702, style-dark.scss */
+      /* line 718, style-dark.scss */
       body .button-parent .btn-primary .focusLine {
         height: 100%;
         position: absolute;
@@ -625,7 +634,7 @@ body {
         transition: all 0.2s ease-in-out;
         -webkit-transform: translate3d(0, 100%, 0);
                 transform: translate3d(0, 100%, 0); }
-    /* line 715, style-dark.scss */
+    /* line 731, style-dark.scss */
     body .button-parent .btn-secondary {
       padding: 15px 25px;
       background-color: transparent;
@@ -639,20 +648,20 @@ body {
       position: relative;
       overflow: hidden;
       cursor: pointer; }
-      /* line 728, style-dark.scss */
+      /* line 744, style-dark.scss */
       body .button-parent .btn-secondary:hover {
         border-color: transparent;
         font-weight: 600; }
-        /* line 732, style-dark.scss */
+        /* line 748, style-dark.scss */
         body .button-parent .btn-secondary:hover .focusLine {
           -webkit-transform: translate3d(0, 0, 0);
                   transform: translate3d(0, 0, 0); }
-      /* line 736, style-dark.scss */
+      /* line 752, style-dark.scss */
       body .button-parent .btn-secondary:focus {
         background-color: #fff;
         color: #102436;
         font-weight: 600; }
-      /* line 741, style-dark.scss */
+      /* line 757, style-dark.scss */
       body .button-parent .btn-secondary .focusLine {
         height: 100%;
         position: absolute;
@@ -664,11 +673,11 @@ body {
         transition: all 0.2s ease-in-out;
         -webkit-transform: translate3d(0, 100%, 0);
                 transform: translate3d(0, 100%, 0); }
-  /* line 755, style-dark.scss */
+  /* line 771, style-dark.scss */
   body .number-bar {
     padding-top: 200px;
     height: 1000px; }
-  /* line 761, style-dark.scss */
+  /* line 777, style-dark.scss */
   body #slider-container {
     height: auto !important;
     display: -webkit-box;
@@ -688,13 +697,13 @@ body {
     height: 100vh;
     -webkit-transition: .25s;
     transition: .25s; }
-    /* line 772, style-dark.scss */
+    /* line 788, style-dark.scss */
     body #slider-container .credit {
       position: absolute;
       bottom: 20px;
       left: 20px;
       color: inherit; }
-    /* line 779, style-dark.scss */
+    /* line 795, style-dark.scss */
     body #slider-container .options {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -711,7 +720,7 @@ body {
       max-width: 900px;
       width: calc(100% - 100px);
       height: 400px; }
-      /* line 792, style-dark.scss */
+      /* line 808, style-dark.scss */
       body #slider-container .options .option {
         position: relative;
         overflow: hidden;
@@ -723,7 +732,7 @@ body {
         cursor: pointer;
         -webkit-transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
         transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
-        /* line 806, style-dark.scss */
+        /* line 822, style-dark.scss */
         body #slider-container .options .option.active {
           -webkit-box-flex: 10000;
               -ms-flex-positive: 10000;
@@ -734,38 +743,38 @@ body {
           margin: 0px;
           border-radius: 40px;
           background-size: auto 100%; }
-          /* line 815, style-dark.scss */
+          /* line 831, style-dark.scss */
           body #slider-container .options .option.active .shadow {
             -webkit-box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
                     box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black; }
-          /* line 818, style-dark.scss */
+          /* line 834, style-dark.scss */
           body #slider-container .options .option.active .label {
             bottom: 20px;
             left: 20px; }
-            /* line 821, style-dark.scss */
+            /* line 837, style-dark.scss */
             body #slider-container .options .option.active .label .info > div {
               left: 0px;
               opacity: 1; }
-        /* line 828, style-dark.scss */
+        /* line 844, style-dark.scss */
         body #slider-container .options .option:not(.active) {
           -webkit-box-flex: 1;
               -ms-flex-positive: 1;
                   flex-grow: 1;
           border-radius: 30px; }
-          /* line 832, style-dark.scss */
+          /* line 848, style-dark.scss */
           body #slider-container .options .option:not(.active) .shadow {
             bottom: -40px;
             -webkit-box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black;
                     box-shadow: inset 0 -120px 0px -120px black, inset 0 -120px 0px -100px black; }
-          /* line 836, style-dark.scss */
+          /* line 852, style-dark.scss */
           body #slider-container .options .option:not(.active) .label {
             bottom: 10px;
             left: 10px; }
-            /* line 839, style-dark.scss */
+            /* line 855, style-dark.scss */
             body #slider-container .options .option:not(.active) .label .info > div {
               left: 20px;
               opacity: 0; }
-        /* line 845, style-dark.scss */
+        /* line 861, style-dark.scss */
         body #slider-container .options .option .shadow {
           position: absolute;
           bottom: 0px;
@@ -774,7 +783,7 @@ body {
           height: 120px;
           -webkit-transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
           transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
-        /* line 855, style-dark.scss */
+        /* line 871, style-dark.scss */
         body #slider-container .options .option .label {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -784,7 +793,7 @@ body {
           height: 40px;
           -webkit-transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
           transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95); }
-          /* line 862, style-dark.scss */
+          /* line 878, style-dark.scss */
           body #slider-container .options .option .label .icon {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -805,7 +814,7 @@ body {
             border-radius: 100%;
             background-color: #102436;
             color: var(--defaultBackground); }
-          /* line 876, style-dark.scss */
+          /* line 892, style-dark.scss */
           body #slider-container .options .option .label .info {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -820,25 +829,25 @@ body {
             margin-left: 10px;
             color: #fff;
             white-space: pre; }
-            /* line 886, style-dark.scss */
+            /* line 902, style-dark.scss */
             body #slider-container .options .option .label .info > div {
               position: relative;
               -webkit-transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
               transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out; }
-            /* line 891, style-dark.scss */
+            /* line 907, style-dark.scss */
             body #slider-container .options .option .label .info .main {
               font-weight: bold;
               font-size: 1.2rem; }
-            /* line 895, style-dark.scss */
+            /* line 911, style-dark.scss */
             body #slider-container .options .option .label .info .sub {
               -webkit-transition-delay: .1s;
                       transition-delay: .1s; }
   @media screen and (max-width: 768px) {
-    /* line 906, style-dark.scss */
+    /* line 922, style-dark.scss */
     body #slider-container {
       overflow: visible; } }
   @media screen and (max-width: 576px) {
-    /* line 914, style-dark.scss */
+    /* line 930, style-dark.scss */
     body #slider-container {
       height: auto;
       width: 100%;
@@ -848,7 +857,7 @@ body {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
       height: 500px; }
-      /* line 922, style-dark.scss */
+      /* line 938, style-dark.scss */
       body #slider-container .options {
         display: contents;
         width: 100%;
@@ -856,7 +865,7 @@ body {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 930, style-dark.scss */
+        /* line 946, style-dark.scss */
         body #slider-container .options .option {
           width: 100%;
           height: 80px;
@@ -864,14 +873,14 @@ body {
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover; }
-          /* line 938, style-dark.scss */
+          /* line 954, style-dark.scss */
           body #slider-container .options .option .label {
             top: 20px;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
             position: relative; }
-          /* line 946, style-dark.scss */
+          /* line 962, style-dark.scss */
           body #slider-container .options .option.active {
             -webkit-box-flex: 10000;
                 -ms-flex-positive: 10000;
@@ -883,7 +892,7 @@ body {
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover; }
-          /* line 957, style-dark.scss */
+          /* line 973, style-dark.scss */
           body #slider-container .options .option:not(.active) {
             -webkit-box-flex: 1;
                 -ms-flex-positive: 1;
@@ -891,7 +900,7 @@ body {
             border-radius: 40px; } }
 
 /*body zu*/
-/* line 975, style-dark.scss */
+/* line 991, style-dark.scss */
 #darkmode-Btn {
   position: fixed;
   display: -webkit-box;
@@ -911,24 +920,24 @@ body {
   color: #102436;
   padding: 10px 15px;
   cursor: pointer; }
-  /* line 990, style-dark.scss */
+  /* line 1006, style-dark.scss */
   #darkmode-Btn:hover {
     background-color: #102436;
     border: 1px solid #fff;
     color: #fff; }
-  /* line 996, style-dark.scss */
+  /* line 1012, style-dark.scss */
   #darkmode-Btn .dark {
     position: absolute;
     opacity: 0; }
 
 @media screen and (max-width: 576px) {
-  /* line 1004, style-dark.scss */
+  /* line 1020, style-dark.scss */
   #darkmode-Btn {
     top: 10px;
     z-index: 100;
     right: 20px;
     bottom: auto; } }
-/* line 1019, style-dark.scss */
+/* line 1035, style-dark.scss */
 #backToTopBtn {
   display: none;
   position: fixed;
@@ -940,14 +949,14 @@ body {
   color: #fff;
   padding: 10px 15px;
   cursor: pointer; }
-  /* line 1032, style-dark.scss */
+  /* line 1048, style-dark.scss */
   #backToTopBtn:hover {
     background-color: #fff;
     border: 1px solid #102436;
     color: #102436; }
 
 @media screen and (max-width: 576px) {
-  /* line 1040, style-dark.scss */
+  /* line 1056, style-dark.scss */
   #backToTopBtn {
     bottom: 30px;
     right: 20px; } }

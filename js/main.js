@@ -107,7 +107,7 @@ function changeStyle() {
   console.log('Button geklickt');
   var style = document.getElementById('styleLink');
   
-  // check, ob Element gefunden 
+  // check, ob Element existiert 
   if (!style) {
     console.error('Element mit ID "styleLink" nicht gefunden.');
     return;

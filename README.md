@@ -20,6 +20,3 @@ Wenn ich auf Probelme gestossen bin, versuchte ich diese jeweils mit verschiedne
 
 Weitere Quellen: Code Pen, CSS Tricks, Bootstrap
 
-
-
-
